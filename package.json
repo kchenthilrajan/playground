@@ -1,0 +1,12 @@
+{
+    "name": "example",
+    "type": "module",
+    "scripts": {
+        "comment": "place the file to be watched at start script",
+        "start": "node example1.js",
+        "watch": "watch 'npm run start' ./"
+    },
+    "dependencies": {
+        "watch": "^1.0.2"
+    }
+}
